@@ -1,0 +1,108 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+#header {
+  background-color: #92c5f8;
+  padding: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header h2 {
+  color: rgb(20, 3, 3);
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #4fa2f5;
+  color: white;
+  font-size: 24px;
+  width: 100%;
+}
+
+#game-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 20px;
+}
+
+#game-wrapper {
+  position: absolute;
+  top: 50px; /* Ajuste a posição superior para 50px */
+  left: 0;
+  width: 100%;
+  height: calc(100% - 50px); /* Subtraí a altura dos botões de navegação */
+  background-color: #ffffff;
+}
+
+#game-wrapper iframe {
+  background-color: transparent;
+}
+
+#game-navigation {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 0; /* Altere a posição superior para 0 */
+}
+
+.navigation-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #92c5f8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 18px;
+  }
+}
