@@ -1,7 +1,6 @@
 const games = [
   {link: "https://aleaplicativos.github.io/guitarrascoloridas/"},
   {link: "https://d21u3ic0kp9e91.cloudfront.net/choir/04/index.html"}, 
-  {link: "https://aleaplicativos.github.io/portalinterativo/"},
   {link: "https://aleaplicativos.github.io/3taint/"},
       
   // Adicione quantos jogos desejar nesta lista
